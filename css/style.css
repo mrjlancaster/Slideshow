@@ -13,6 +13,7 @@ header{
 }
 
 
+
 .slidershow{
     width: 800px;
     height: 600px;
@@ -94,3 +95,10 @@ input[name="r"]{
 
 
 
+@media (max-width: 768px){ 
+    body, .heading, .slideshow, .middle, .navigation, .signature .slides{
+        text-align: center;
+        width: 100%;
+}
+
+}
