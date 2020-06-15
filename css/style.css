@@ -1,19 +1,23 @@
-body, html{
-    margin: 0;
+* {
     padding: 0;
-    background-color: #ecf0f1;
+    margin: 0;
+    box-sizing: border-box;
 }
-
 header{
     background-color: #c8d6e5;
-    min-height: 200px;
-    text-align: center;
+    height: 200px;
     color: #222f3e;
     font-style: italic;
 }
 
+h2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .slidershow{
-    width: 800px;
     height: auto;
     overflow: hidden;
 }
