@@ -96,9 +96,6 @@ input[name="r"]{
 }
 
 @media (max-width: 768px) { 
-    body, html {
-        width: 100%;
-    }
 
     .slidershow {
         width: 80%;
